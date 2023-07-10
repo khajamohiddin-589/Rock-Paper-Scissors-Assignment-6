@@ -1,0 +1,41 @@
+.play-again-view-container-with-results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.play-again-view-container {
+  display: flex;
+}
+
+.choice-image-play-agin {
+  height: 168px;
+  width: 168px;
+}
+.you-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.player-name-heading {
+  margin-bottom: 0px;
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.result-display-text {
+  font-family: 'Bree serif';
+  font-size: 40px;
+  color: white;
+  font-weight: 800;
+}
+.play-again-button {
+  height: 50px;
+  width: 250px;
+  border-radius: 10px;
+  border: none;
+  font-size: 17px;
+  font-weight: 500;
+  cursor: pointer;
+}

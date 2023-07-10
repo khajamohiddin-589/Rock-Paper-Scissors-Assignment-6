@@ -1,0 +1,60 @@
+.score-card-main-container {
+  margin-top: 5px;
+  border: 3px solid white;
+  display: flex;
+  width: 95%;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 576px) {
+  .score-card-main-container {
+    margin-top: 20px;
+    width: 80%;
+    justify-content: space-between;
+  }
+}
+
+.game-name-heading {
+  color: white;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 33px;
+}
+@media screen and (min-width: 576px) {
+  .game-name-heading {
+    margin-left: 40px;
+    font-size: 40px;
+  }
+}
+
+.score-card-container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid white;
+  height: 150px;
+  width: 40%;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 576px) {
+  .score-card-container {
+    width: 20%;
+    margin-right: 40px;
+  }
+}
+
+.score-heading {
+  color: #223a5f;
+  margin-bottom: 0px;
+  font-weight: 500;
+}
+.score-display {
+  color: #223a5f;
+  margin-top: 0px;
+  font-size: 50px;
+  font-weight: 600;
+}
