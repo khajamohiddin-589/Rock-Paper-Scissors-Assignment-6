@@ -82,17 +82,23 @@ class GameView extends Component {
 
   renderChoicesView = () => (
     <ul className="game-choices-container">
-      {choicesList.map(each => (
-        <li key={each.id} className="list-item">
-          <button
-            onClick={() => this.choiceDone(each)}
-            className="choice-image-button"
-            type="button"
-          >
-            <img className="choice-image" src={each.imageUrl} alt={each.id} />
-          </button>
-        </li>
-      ))}
+      {choicesList.map(each => {
+        const symbol = each.id
+        const newString = `${symbol.toLowerCase()}Button`
+        console.log(newString)
+        return (
+          <li key={each.id} className="list-item">
+            <button
+              data-testid={newString}
+              onClick={() => this.choiceDone(each)}
+              className="choice-image-button"
+              type="button"
+            >
+              <img className="choice-image" src={each.imageUrl} alt={each.id} />
+            </button>
+          </li>
+        )
+      })}
     </ul>
   )
 

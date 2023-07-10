@@ -13,18 +13,18 @@ const PlayAgainView = props => {
       <div className="play-again-view-container">
         <div className="you-container">
           <h1 className="player-name-heading">YOU</h1>
-          <img src={my} alt="my-choice" className="choice-image-play-agin" />
+          <img src={my} alt="your choice" className="choice-image-play-agin" />
         </div>
         <div className="you-container">
           <h1 className="player-name-heading">OPPONENT</h1>
           <img
             src={opponent}
-            alt="my-choice"
+            alt="opponent choice"
             className="choice-image-play-agin"
           />
         </div>
       </div>
-      <h1 className="result-display-text">{display}</h1>
+      <p className="result-display-text">{display}</p>
       <button
         onClick={onClickPlayAgain}
         className="play-again-button"
