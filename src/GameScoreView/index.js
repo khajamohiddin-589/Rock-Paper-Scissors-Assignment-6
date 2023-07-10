@@ -11,8 +11,8 @@ const GameScoreView = props => {
         <br /> Scissors
       </h1>
       <div className="score-card-container">
-        <p className="score-heading">Score</p>
-        <p className="score-display">{score}</p>
+        <h1 className="score-heading">Score</h1>
+        <h1 className="score-display">{score}</h1>
       </div>
     </div>
   )

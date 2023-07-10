@@ -50,12 +50,12 @@
 .score-heading {
   color: #223a5f;
   margin-bottom: 0px;
-  font-weight: 500;
+  font-weight: 600;
 }
 .score-display {
   color: #223a5f;
   margin-top: 0px;
   font-size: 50px;
-  font-weight: 600;
+  font-weight: 800;
   font-family: 'Roboto';
 }
